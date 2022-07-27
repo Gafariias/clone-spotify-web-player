@@ -1,0 +1,157 @@
+header {
+  margin: 20px 28px 23px 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  width: 230px;
+  margin-right: 40px;
+}
+
+header #header-playlist-p {
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+header #header-playlist-h1 {
+  font-size: 70px;
+  margin-bottom: 2px;
+}
+
+header #header-playlist-h2 {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+header #quantidade-musicas, header #duracao {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+header #duracao {
+  color: #b3afaf;
+}
+
+#playlist-musicas {
+  background-color: #1212126e;
+  padding: 28px;
+}
+
+#playlist-musicas button {
+  margin-right: 30px;
+}
+
+#playlist-musicas i {
+  font-size: 30px;
+}
+
+#playlist-musicas #tocar-playlist {
+  border-radius: 50%;
+  border: none;
+  width: 65px;
+  height: 65px;
+  padding-left: 5px;
+  background-color: #1ed760;
+}
+
+#playlist-musicas #tocar-playlist:hover {
+  width: 68px;
+  height: 68px;
+  cursor: pointer;
+}
+
+#playlist-musicas #tocar-playlist i {
+  color: black;
+}
+
+#playlist-musicas #favoritar-playlist, #playlist-musicas #opcoes-playlist {
+  background: none;
+  border: none;
+}
+
+table {
+  margin-top: 30px;
+  width: 100%;
+}
+
+#table-hr {
+  width: 100%;
+  font-size: 35px;
+}
+
+.playlist-musica-infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#table-dados tr {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#table-dados tr:hover {
+  background-color: rgba(255, 255, 255, 0.329);
+  cursor: pointer;
+}
+
+.td-num {
+  width: 10px;
+  font-size: 21px;
+  font-weight: bold;
+  border-radius: 10px 0 0 10px;
+}
+
+.td-duracao {
+  color: #c2c1c1;
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 0 10px 10px 0;
+}
+
+.td-album {
+  font-size: 16px;
+  color: #c2c1c1;
+  font-weight: normal;
+}
+
+td {
+  text-align: left;
+  height: 60px;
+  color: #c2c1c1;
+  border: none;
+}
+
+td h3 {
+  color: white;
+  margin-bottom: 1px;
+}
+
+td h4 {
+  font-weight: normal;
+}
+
+td img {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+th {
+  font-size: 18px;
+  text-align: left;
+  color: #c2c1c1;
+}
+/*# sourceMappingURL=playlist.css.map */
