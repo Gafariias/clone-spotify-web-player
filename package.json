@@ -1,0 +1,20 @@
+{
+  "name": "clone-spotify-web-player",
+  "version": "1.0.0",
+  "description": "## Clone simples feito em HTML, SCSS e JavaScript",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gafariias/clone-spotify-web-player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gafariias/clone-spotify-web-player/issues"
+  },
+  "homepage": "https://github.com/Gafariias/clone-spotify-web-player#readme"
+}

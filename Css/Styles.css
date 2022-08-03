@@ -483,8 +483,6 @@ aside #playerNav #progress #container-progresso {
 }
 
 aside #playerNav #progress #container-progresso:hover {
-  height: 7px;
-  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -508,6 +506,10 @@ aside #controls #volumeBar {
   background-color: var(--cor3);
   height: 5px;
   border-radius: 2.5px;
+}
+
+aside #controls #volumeBar:hover {
+  cursor: pointer;
 }
 
 aside #controls #volumeBar #volume {

@@ -429,8 +429,6 @@ aside {
                 transition: .1s;
 
                 &:hover {
-                    height: 7px;
-                    border-radius: 4px;
                     cursor: pointer;
                 }
 
@@ -455,6 +453,10 @@ aside {
             background-color: var(--cor3);
             height: 5px;
             border-radius: 2.5px;
+
+            &:hover {
+                cursor: pointer;
+            }
 
             & #volume {
                 background-color: white;
